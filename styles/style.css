@@ -1,4 +1,4 @@
-/* styles */
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -7,13 +7,11 @@
   color: hsl(228, 45%, 44%);
 }
 
-/* BASIC RESET */
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
-/* GLOBAL */
 body {
   min-height: 100vh;
   font-family: 'Rubik', sans-serif;
@@ -21,9 +19,8 @@ body {
   color: white;
 }
 
-/* MAIN LAYOUT */
 main {
-  min-height: 100vh;
+  min-height: 110vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,12 +44,10 @@ main {
 .bg-card-header-excersie { background-color: hsl(145, 58%, 55%); }
 .bg-card-header-social { background-color: hsl(264, 64%, 52%); }
 .bg-card-header-self-care { background-color: hsl(43, 84%, 65%); }
-
-/* FONT HELPERS */
-.fw-light { font-weight: 300; }
-.fw-regular { font-weight: 400; }
-.fw-medium { font-weight: 500; }
-
+/*fonts*/
+.fw-light { font-weight: 350; }
+.fw-regular { font-weight: 450; }
+.fw-medium { font-weight: 550; }
 .fs-300 { font-size: 0.9375rem; }
 .fs-400 { font-size: 1.125rem; }
 .fs-600 { font-size: 2.5rem; }
